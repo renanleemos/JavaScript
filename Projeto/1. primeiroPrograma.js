@@ -7,3 +7,5 @@ console.log(idade + 2);
 
 const idadeSomada = idade + 2;
 console.log(idadeSomada);
+
+//Atalho importante. Shift + Alt + Seta para baixo reescreve a linha anteiror.
