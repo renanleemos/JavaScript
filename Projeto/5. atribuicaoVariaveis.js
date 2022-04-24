@@ -5,11 +5,11 @@ const primeiroNome = "Renan";
 const sobrenome = "Lemos";
  
 //Faça dessa forma
-console.log(nome + " " + sobrenome);
+console.log(primeiroNome + " " + sobrenome);
 //Ou
-console.log(nome, sobrenome);
+console.log(primeiroNome, sobrenome);
 //Ou faça a interpolação
-console.log(`Meu nome é ${nome} ${sobrenome}`);
+console.log(`Meu nome é ${primeiroNome} ${sobrenome}`);
 
 const nomeCompleto = primeiroNome + sobrenome;
 console.log(nome);
