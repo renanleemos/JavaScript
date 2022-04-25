@@ -1,16 +1,15 @@
-console.log(`Trabalhando com condicionais`);
-
 const listaDeDestinos = new Array(
     `Salvador`, `São Paulo`, `Rio de Janeiro`
 );
 
 const idadePassageiro = 18;
 const estaAcompanhada = true;
+const temPassagemComprada = true;
 
 console.log(`Destinos possíveis: `);
 console.log(listaDeDestinos);
 
-if (idadePassageiro >= 18) {
+if (idadePassageiro >= 18 || estaAcompanhada == true) {
     console.log(`Você comprou passagem para o ${listaDeDestinos[2]}`);
     listaDeDestinos.splice(2, 1);
     console.log(listaDeDestinos);
@@ -24,13 +23,10 @@ if (idadePassageiro >= 18) {
     }
 }
 
-// Alt + Shift + F realiza a indentação do seu código.
-
-
-
-
-
-
-
-
-
+// - \n pula linha
+console.log("Embarque: \n");
+if (idadePassageiro >= 18 && temPassagemComprada) {
+    console.log("Boa viagem!");
+}else {
+    console.log("Você não pode embarcar");
+}
